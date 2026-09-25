@@ -94,6 +94,20 @@ const ja = {
   __COMMAND_TRANSLATE_TO_JA_LABEL: '翻成日文', // TODO
   __COMMAND_TRANSLATE_TO_JA_TEXT: '翻成日文', // TODO
   __COMMAND_TRANSLATE_TO_JA_PROMPT: '請將以下內容翻譯成日文。', // TODO
+  __COMMAND_GAME_ENTER_LABEL: 'マジックビースト',
+  __COMMAND_GAME_ENTER_TEXT: '/game',
+  __COMMAND_GAME_ENTER_ALIASES: ['まじっくびーすと', '冒険開始'],
+  __COMMAND_GAME_STATUS_LABEL: 'キャラクター状態',
+  __COMMAND_GAME_STATUS_TEXT: '/game 狀態',
+  __COMMAND_GAME_STATUS_ALIASES: ['冒険者状態', 'キャラクター状態'],
+  __COMMAND_GAME_MAP_LABEL: 'チャプター選択',
+  __COMMAND_GAME_MAP_TEXT: '/game 地圖',
+  __COMMAND_GAME_MAP_ALIASES: ['マップ選択', 'チャプター選択'],
+  __COMMAND_GAME_CHALLENGE_LABEL: '挑戦',
+  __COMMAND_GAME_CHALLENGE_TEXT: '挑戦',
+  __COMMAND_GAME_UPGRADE_LABEL: 'オーブ強化',
+  __COMMAND_GAME_UPGRADE_TEXT: '/game 升級',
+  __COMMAND_GAME_UPGRADE_ALIASES: ['オーブ強化', '魔法球強化'],
   __COMPLETION_DEFAULT_SYSTEM_PROMPT: '', // TODO
   __COMPLETION_DEFAULT_HUMAN_PROMPT: (name) => (name ? `私は${name}です` : 'こんにちは'),
   __COMPLETION_DEFAULT_AI_PROMPT: (name) => (name ? `私は${name}です` : 'こんにちは'),

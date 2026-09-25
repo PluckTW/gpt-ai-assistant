@@ -33,6 +33,11 @@ import COMMAND_SYS_REPORT from './sys-report.js';
 import COMMAND_SYS_VERSION from './sys-version.js';
 import COMMAND_TRANSLATE_TO_EN from './translate-to-en.js';
 import COMMAND_TRANSLATE_TO_JA from './translate-to-ja.js';
+import COMMAND_GAME_ENTER from './game-enter.js';
+import COMMAND_GAME_STATUS from './game-status.js';
+import COMMAND_GAME_MAP from './game-map.js';
+import COMMAND_GAME_CHALLENGE from './game-challenge.js';
+import COMMAND_GAME_UPGRADE from './game-upgrade.js';
 
 export const ALL_COMMANDS = [
   COMMAND_ANALYZE_ANALYZE,
@@ -67,6 +72,11 @@ export const ALL_COMMANDS = [
   COMMAND_SYS_VERSION,
   COMMAND_TRANSLATE_TO_EN,
   COMMAND_TRANSLATE_TO_JA,
+  COMMAND_GAME_ENTER,
+  COMMAND_GAME_STATUS,
+  COMMAND_GAME_MAP,
+  COMMAND_GAME_CHALLENGE,
+  COMMAND_GAME_UPGRADE,
 ];
 
 export const INFO_COMMANDS = [
@@ -86,6 +96,7 @@ export const GENERAL_COMMANDS = [
   COMMAND_BOT_FORGET,
   COMMAND_SUM_SUM,
   COMMAND_ANALYZE_ANALYZE,
+  COMMAND_GAME_ENTER,
 ];
 
 export const ENQUIRE_COMMANDS = ALL_COMMANDS.filter(({ type }) => (
@@ -128,4 +139,9 @@ export {
   COMMAND_SYS_VERSION,
   COMMAND_TRANSLATE_TO_EN,
   COMMAND_TRANSLATE_TO_JA,
+  COMMAND_GAME_ENTER,
+  COMMAND_GAME_STATUS,
+  COMMAND_GAME_MAP,
+  COMMAND_GAME_CHALLENGE,
+  COMMAND_GAME_UPGRADE,
 };
