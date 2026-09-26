@@ -1,4 +1,5 @@
 import activateHandler from './activate.js';
+import magicbeastHandler from './magicbeast.js';
 import commandHandler from './command.js';
 import continueHandler from './continue.js';
 import deactivateHandler from './deactivate.js';
@@ -15,6 +16,7 @@ import versionHandler from './version.js';
 
 export {
   activateHandler,
+  magicbeastHandler,
   commandHandler,
   continueHandler,
   deactivateHandler,

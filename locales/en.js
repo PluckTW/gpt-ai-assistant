@@ -94,6 +94,20 @@ const en = {
   __COMMAND_TRANSLATE_TO_JA_LABEL: '翻成日文', // TODO
   __COMMAND_TRANSLATE_TO_JA_TEXT: '翻成日文', // TODO
   __COMMAND_TRANSLATE_TO_JA_PROMPT: '請將以下內容翻譯成日文。', // TODO
+  __COMMAND_GAME_ENTER_LABEL: 'MagiqueBeast',
+  __COMMAND_GAME_ENTER_TEXT: '/game',
+  __COMMAND_GAME_ENTER_ALIASES: ['magiquebeast', 'start adventure'],
+  __COMMAND_GAME_STATUS_LABEL: 'Character Status',
+  __COMMAND_GAME_STATUS_TEXT: '/game status',
+  __COMMAND_GAME_STATUS_ALIASES: ['adventurer status', 'character status'],
+  __COMMAND_GAME_MAP_LABEL: 'Chapter Select',
+  __COMMAND_GAME_MAP_TEXT: '/game map',
+  __COMMAND_GAME_MAP_ALIASES: ['select map', 'chapter select'],
+  __COMMAND_GAME_CHALLENGE_LABEL: 'Challenge',
+  __COMMAND_GAME_CHALLENGE_TEXT: 'challenge',
+  __COMMAND_GAME_UPGRADE_LABEL: 'Upgrade Orb',
+  __COMMAND_GAME_UPGRADE_TEXT: '/game upgrade',
+  __COMMAND_GAME_UPGRADE_ALIASES: ['upgrade orb', 'orb upgrade'],
   __COMPLETION_DEFAULT_SYSTEM_PROMPT: '', // TODO
   __COMPLETION_DEFAULT_HUMAN_PROMPT: (name) => (name ? `I am ${name}` : 'Hello'),
   __COMPLETION_DEFAULT_AI_PROMPT: (name) => (name ? `I am ${name}` : 'Hello'),

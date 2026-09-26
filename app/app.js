@@ -14,6 +14,7 @@ import {
   searchHandler,
   talkHandler,
   versionHandler,
+  magicbeastHandler,
 } from './handlers/index.js';
 import Context from './context.js';
 import Event from './models/event.js';
@@ -36,6 +37,7 @@ const handleContext = async (context) => (
   || retryHandler(context)
   || searchHandler(context)
   || versionHandler(context)
+  || magicbeastHandler(context)
   || talkHandler(context)
   || context
 );
